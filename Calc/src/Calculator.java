@@ -16,7 +16,7 @@ public class Calculator {
 		};
 		Calculator calculator = new Calculator();
 		calculator.print(add, 2D,3D);
-		calculator.print(div, 2D,3D);
+		
 		
 		
 		BinaryOperator<Double> adder =  (p1, p2) -> p1+p2;
